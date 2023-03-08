@@ -4,6 +4,8 @@
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  
 }
 
 /* header */
@@ -12,10 +14,19 @@
   background-color: #222222;
   color: #f3f3f3;
   font-size: 10px;
+  word-spacing: ;
 }
 
+.header-texto { 
+position: relative;
+left: 53px;
+}
 .header-lista {
-  list-style: none;
+  list-style: none; }
+
+.header-lista { 
+  position: relative;
+  left: 1200px;
 }
 
 .header-container-bottom {
@@ -37,11 +48,338 @@
   color: #ffffff;
   font-size: 13px;
 }
+.nav-lista { 
+  position: relative;
+  left: 1000px;
+}
 
 /* main */
 
 .bienvenida {
-  margin-top: 50px;
-  padding: 20px;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding: 200px;
+  background-image: url(/img/bowl-and-pet-daities-on-green-background\ 1.png);
+  background-size: cover;
+  border: 0px;
+}
+
+.h2-boton { 
+  position: relative;
+  bottom: 190px;
+  left: 880px
+
+}
+
+.texto-grande { 
+  background-color: #ffffff;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.texto-grande { 
+  position: relative;
+  left: 670px;
+  top: 40px;
+  color: #3C2313;
+}
+
+h1 { width: fit-content;
+}
+
+header { 
+  width: 1024;
+  height: 20;
+}
+
+.h2-boton { 
+  position: relative;
+  bottom: 125px;
+  left: 1000px;
+  background-color: #f0a83e;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: -100px;
+  padding-bottom: -100px;
+  color: #ffffff;
   text-align: center;
+}
+
+h2 {
+ width: 150px;
+ height: 54px;
+}
+
+.desc-section-principal {
+  position: relative;
+  bottom: 150px;
+  left: 400px;
+  color: #3C2313;
+  text-align: center;
+}
+
+.header-img { 
+  position: relative;
+  left: 620px;
+  bottom: 50px;
+  margin: 0%;
+  padding: 0%; 
+}
+
+.titulo-productos {
+  color: #3C2313;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+
+.mini-menu { 
+  text-align: center;
+  color: #666666;
+  position: relative;
+  bottom: 50px; 
+}
+
+.img-productos { 
+  position: relative;
+  left: 240px;
+}
+
+html {
+  height: 150%;
+}
+
+.juguete-churrasquito { 
+  position: relative;
+  left: 50px;
+  bottom: 42px;
+  color: #3C2313;
+}
+
+.comedero { 
+  position: relative;
+  left: 338px;
+  bottom: 60px;
+  color: #3C2313;
+}
+
+.Huesito {
+  position: relative;
+  left: 600px;
+  bottom: 78px;
+  color: #3C2313;
+}
+
+.precio-churri {
+  color: #F0A83E;
+  position: relative;
+  left: 100px;
+  bottom: 78px;
+}
+.precio-come {
+  color: #F0A83E;
+  position: relative;
+  left: 400px;
+  bottom: 97px;
+}
+
+.precio-huesi {
+  color: #F0A83E;
+  position: relative;
+  left: 650px;
+  bottom: 115px;
+}
+
+.titulo-contacto {
+  color: #3C2313;
+  text-align: center;
+  font-size: 30px;
+}
+
+.nombreYapellido {
+  color: #ffffff;
+  text-align: left;
+  font-size: small;
+  border-radius: 20px;
+  position: relative;
+  left: 35%;
+}
+
+.nombreYapellido {
+  width: 400px;
+  height: 45px;
+  padding: 10px 0px 10px 20px ;
+  border: solid 3px #3C2313;
+  margin: 30px;
+  background-color: #3C2313;
+  box-sizing: border-box;
+  
+}
+
+.correo {
+  width: 400px;
+  height: 45px;
+  padding: 10px 0px 10px 20px ;
+  border: solid 3px #3C2313;
+  margin: 30px;
+  background-color: #3C2313;
+  box-sizing: border-box;
+  position: relative;
+  left: 35%;
+  bottom: 20px;
+}
+
+.correo {
+  color: #ffffff;
+  text-align: left;
+  font-size: small;
+  border-radius: 20px;
+}
+
+.telefono {
+  width: 400px;
+  height: 45px;
+  padding: 10px 0px 10px 20px ;
+  border: solid 3px #3C2313;
+  margin: 30px;
+  background-color: #3C2313;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-align: left;
+  font-size: small;
+  border-radius: 20px;
+  position: relative;
+  left: 35%;
+  bottom: 40px;
+}
+
+.reset {
+  width: 150px;
+  height: 45px;
+  padding: 10px 10px 10px 10px;
+  border: solid 3px #666666;
+  margin: 30px;
+  background-color: #666666;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-align: center;
+  font-size: medium;
+  border-radius: 20px;
+  position: relative;
+  left: 39%;
+  bottom: 20px;
+}
+
+.enviar {
+  width: 150px;
+  height: 45px;
+  padding: 10px 10px 10px 10px;
+  border: solid 3px #F0A83E;
+  margin: 30px;
+  background-color: #f0a83e;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-align: center;
+  font-size: medium;
+  border-radius: 20px;
+  position: relative;
+  left: 51%;
+  bottom: 95px;
+}
+
+.lefttop-footer {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: left;
+  position: relative;
+  left: 70px;
+  top: 30px;
+  font-weight: bold;
+
+}
+
+.top-footer {
+  background-color: #F0A83E;
+  height: 80px;
+}
+
+.ingresarcorreo-footer {
+width: 300px;
+height: fit-content;
+padding: 10px 10px 10px 10px;
+border: solid 3px #ffffff;
+margin: 30px;
+background-color: #ffffff;
+border-radius: 20px;
+position: relative;
+left: 67%;
+font-size: smaller;
+color: #666666;
+position: relative;
+bottom: 40px;
+}
+
+.botonResgistrar {
+  width: 100px;
+height: fit-content;
+padding: 10px 10px 10px 10px;
+border: solid 3px #3C2313;
+margin: 30px;
+background-color: #3C2313;
+border-radius: 20px;
+position: relative;
+left: 90%;
+font-size: smaller;
+color: #ffffff;
+position: relative;
+bottom: 113px;
+}
+
+.mid-footer {
+  background-color: #3C2313;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 20px 0px 40px 100px;
+}
+
+.calle {
+  color: #666666;
+  font-size: small;
+}
+
+.num {
+  color: #666666;
+  font-size: small;
+}
+
+.direcciondecorreo {
+  color: #666666;
+  font-size: small;
+}
+
+.texto-logo-low {
+
+}
+
+.logoOrange {
+  color: #f0a83e;
+}
+
+.logocompleto {
+  position: relative;
+  left: 75%;
+  bottom: 70px;
+}
+
+.carta {
+  position: relative;
+  left: 60px;
+  top: 30px; 
+}
+
+.low-footer {
+  text-align: center;
+  background-color: #222222;
+  color: #ffffff;
 }
